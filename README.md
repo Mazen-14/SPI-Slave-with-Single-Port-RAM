@@ -64,7 +64,6 @@ The design has been tested and verified through functional simulation, synthesis
 ## Simulation Results 
 
 
-```html
 <h2>Simulation Resukts</h2>
 
 <!-- msb_00 -->
