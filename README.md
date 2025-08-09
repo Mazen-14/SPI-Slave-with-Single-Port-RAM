@@ -107,3 +107,22 @@ The design has been tested and verified through functional simulation, synthesis
     <code>tx_data</code> could read the data being written in (<code>ba</code>) address 
     (same as the data we just wrote in (<code>e7</code>)). Also, <code>MISO</code> is being transmitted bit by bit (<code>1110 0111</code>).</p>
 </div>
+
+---
+
+## Documentation
+
+A detailed project report (`Document.pdf`) is included in the repository with:
+- RTL design breakdown
+- Testbench development
+- Verification results
+- DO files and constraint settings
+- All Vivado reports
+
+---
+
+## Author
+
+**Mazen Mohamed Hemdan**  
+Bachelor of Computer Engineering  
+Focus: Digital Design, Computer Architecture, Hardware Verification
