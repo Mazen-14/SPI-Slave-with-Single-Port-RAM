@@ -72,12 +72,12 @@ The design has been tested and verified through functional simulation, synthesis
 ## Simulation Results 
 
 
-<h2>Simulation Resukts</h2>
+<h2>Simulation Results</h2>
 
 <!-- msb_00 -->
 <div>
     <h3>MSB = 00</h3>
-    <img src="Pictures/msb_00.png" alt="msb_00 waveform" width="800">
+    <img src="Pictures/msb_00.png" alt="msb_00 waveform" width="400">
     <p>After the first write state address is being written in <code>rx_data</code> as well as most significant 2 bits 
     which are <code>2’b00</code> to declare that the data is address (<code>ba</code>).</p>
 </div>
@@ -85,7 +85,7 @@ The design has been tested and verified through functional simulation, synthesis
 <!-- msb_01 -->
 <div>
     <h3>MSB = 01</h3>
-    <img src="Pictures/msb_01.png" alt="msb_01 waveform" width="800">
+    <img src="Pictures/msb_01.png" alt="msb_01 waveform" width="400">
     <p>After the second write state data is being written in <code>rx_data</code> as well as most significant 2 bits 
     which are <code>2’b01</code> to declare that the data is <code>wr_data</code> (<code>e7</code>).</p>
 </div>
@@ -93,7 +93,7 @@ The design has been tested and verified through functional simulation, synthesis
 <!-- msb_10 -->
 <div>
     <h3>MSB = 10</h3>
-    <img src="Pictures/msb_10.png" alt="msb_10 waveform" width="800">
+    <img src="Pictures/msb_10.png" alt="msb_10 waveform" width="400">
     <p>After the second write state data is being written in <code>rx_data</code> as well as most significant 2 bits 
     which are <code>2’b01</code> to declare that the data is <code>wr_data</code> (<code>e7</code>).</p>
 </div>
@@ -101,7 +101,7 @@ The design has been tested and verified through functional simulation, synthesis
 <!-- msb_11 -->
 <div>
     <h3>MSB = 11</h3>
-    <img src="Pictures/msb_11.png" alt="msb_11 waveform" width="800">
+    <img src="Pictures/msb_11.png" alt="msb_11 waveform" width="400">
     <p>After the second read state data is being written in <code>rx_data</code> as well as most significant 2 bits 
     which are <code>2’b11</code> but the rest 8 data are dummy. After that, <code>tx_valid</code> is raised so 
     <code>tx_data</code> could read the data being written in (<code>ba</code>) address 
