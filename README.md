@@ -52,7 +52,7 @@ The design has been tested and verified through functional simulation, synthesis
 ├── Constrain_File/ → XDC constraint files for FPGA pin mapping
 ├── Do_File/ → Simulation script files
 ├── Testbench_Code/ → Verilog testbench source files
-├── RTL_Verilog/ → RTL design source code (Verilog/SystemVerilog)
+├── RTL_Verilog/ → RTL design source code (SystemVerilog)
 ├── Document.pdf/ → Full project report (design + verification + results)
 ```
 
