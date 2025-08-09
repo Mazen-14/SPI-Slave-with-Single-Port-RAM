@@ -7,6 +7,14 @@ The project includes **simulation waveforms**, **schematics**, and **bitstreams*
 
 The design has been tested and verified through functional simulation, synthesis, and implementation.
 
+<!-- SPI Wrapper -->
+<div>
+    <h3>SPI Wrapper Block Diagram</h3>
+    <img src="Pictures/SPI_Wrapper.png" alt="SPI Wrapper Diagram" width="800">
+    <p>The SPI Wrapper integrates the SPI Slave and Single-Port RAM, connecting <code>rx_data</code> and <code>tx_data</code> 
+    signals between the modules, enabling read/write operations via SPI.</p>
+</div>
+
 ---
 
 ## Features
@@ -98,12 +106,4 @@ The design has been tested and verified through functional simulation, synthesis
     which are <code>2’b11</code> but the rest 8 data are dummy. After that, <code>tx_valid</code> is raised so 
     <code>tx_data</code> could read the data being written in (<code>ba</code>) address 
     (same as the data we just wrote in (<code>e7</code>)). Also, <code>MISO</code> is being transmitted bit by bit (<code>1110 0111</code>).</p>
-</div>
-
-<!-- SPI Wrapper -->
-<div>
-    <h3>SPI Wrapper Block Diagram</h3>
-    <img src="Pictures/SPI_Wrapper.png" alt="SPI Wrapper Diagram" width="800">
-    <p>The SPI Wrapper integrates the SPI Slave and Single-Port RAM, connecting <code>rx_data</code> and <code>tx_data</code> 
-    signals between the modules, enabling read/write operations via SPI.</p>
 </div>
