@@ -10,7 +10,7 @@ The design has been tested and verified through functional simulation, synthesis
 <!-- SPI Wrapper -->
 <div>
     <h3>SPI Wrapper Block Diagram</h3>
-    <img src="Pictures/SPI_Wrapper.png" alt="SPI Wrapper Diagram" width="800">
+    <img src="Pictures/spi_wrapper.png" alt="SPI Wrapper Diagram" width="800">
     <p>The SPI Wrapper integrates the SPI Slave and Single-Port RAM, connecting <code>rx_data</code> and <code>tx_data</code> 
     signals between the modules, enabling read/write operations via SPI.</p>
 </div>
